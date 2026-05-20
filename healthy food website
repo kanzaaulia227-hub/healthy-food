@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Food</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5ebe0;
+            color: #5c4033;
+        }
+
+        header {
+            background-color: #e3d5ca;
+            text-align: center;
+            padding: 30px;
+        }
+
+        nav {
+            background-color: #d6ccc2;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #5c4033;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero button {
+            padding: 12px 25px;
+            border: none;
+            background-color: #b08968;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .hero button:hover {
+            background-color: #7f5539;
+        }
+
+        .content {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: #ede0d4;
+            width: 250px;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .tips {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .tips ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .tips li {
+            margin: 10px 0;
+        }
+
+        footer {
+            background-color: #d6ccc2;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Healthy Food</h1>
+        <p>Makanan Sehat untuk Hidup Lebih Baik</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">Tips</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Mulai Hidup Sehat Hari Ini</h2>
+        <p>Makanan sehat membantu tubuh tetap kuat dan bugar setiap hari.</p>
+        <button onclick="showMessage()">Pelajari Lebih Lanjut</button>
+    </section>
+
+    <section class="content">
+        <div class="card">
+            <h3>Salad Segar</h3>
+            <p>Sayuran segar kaya vitamin dan baik untuk kesehatan tubuh.</p>
+        </div>
+
+        <div class="card">
+            <h3>Buah-Buahan</h3>
+            <p>Buah mengandung serat dan nutrisi penting untuk tubuh.</p>
+        </div>
+
+        <div class="card">
+            <h3>Air Putih</h3>
+            <p>Minum air yang cukup membantu menjaga kesehatan tubuh.</p>
+        </div>
+    </section>
+
+    <section class="tips">
+        <h2>Tips Hidup Sehat</h2>
+        <ul>
+            <li>Makan makanan bergizi</li>
+            <li>Olahraga secara rutin</li>
+            <li>Minum air putih yang cukup</li>
+            <li>Tidur yang teratur</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Healthy Food Website</p>
+    </footer>
+
+    <script>
+        function showMessage() {
+            alert("Tetap jaga pola makan sehat setiap hari!");
+        }
+    </script>
+
+</body>
+</html>
