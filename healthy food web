@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Food</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Healthy Food</h1>
+        <p>Makanan Sehat untuk Hidup Lebih Berkualitas</p>
+    </header>
+
+    <!-- Navigasi -->
+    <nav>
+        <a href="#" onclick="showSection('home')">Home</a>
+        <a href="#" onclick="showSection('menu')">Menu</a>
+        <a href="#" onclick="showSection('benefits')">Manfaat</a>
+        <a href="#" onclick="showSection('contact')">Kontak</a>
+    </nav>
+
+    <!-- Home -->
+    <section id="home" class="active">
+        <div class="hero">
+            <h2>Selamat Datang di Healthy Food</h2>
+            <p>
+                Healthy Food menyediakan berbagai makanan sehat yang kaya nutrisi,
+                rendah kalori, dan dibuat dari bahan-bahan segar berkualitas.
+            </p>
+            <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1000&q=80" alt="Healthy Food">
+        </div>
+    </section>
+
+    <!-- Menu -->
+    <section id="menu">
+        <h2>Menu Healthy Food</h2>
+        <div class="cards">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80" alt="Salad">
+                <h3>Fresh Salad</h3>
+                <p>Salad segar dengan sayuran organik dan dressing rendah lemak.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=800&q=80" alt="Smoothie Bowl">
+                <h3>Smoothie Bowl</h3>
+                <p>Campuran buah segar dengan topping granola dan chia seed.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1505253716362-afaea6d3d1af?auto=format&fit=crop&w=800&q=80" alt="Healthy Sandwich">
+                <h3>Healthy Sandwich</h3>
+                <p>Roti gandum dengan isi sayuran segar dan protein sehat.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Benefits -->
+    <section id="benefits">
+        <h2>Manfaat Makanan Sehat</h2>
+        <ul>
+            <li>Meningkatkan daya tahan tubuh</li>
+            <li>Menjaga berat badan ideal</li>
+            <li>Meningkatkan energi dan konsentrasi</li>
+            <li>Menjaga kesehatan jantung</li>
+            <li>Membantu pertumbuhan dan perkembangan tubuh</li>
+        </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Kontak Kami</h2>
+        <div class="contact">
+            <p><strong>Nama:</strong> Healthy Food</p>
+            <p><strong>Email:</strong> info@healthyfood.com</p>
+            <p><strong>Telepon:</strong> 0812-3456-7890</p>
+            <p><strong>Alamat:</strong> Yogyakarta, Indonesia</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Healthy Food. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
